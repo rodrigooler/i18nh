@@ -1,5 +1,18 @@
 ## Install
 
+## Support
+
+- [x] NodeJS
+- [x] React
+- [x] NextJS
+- [x] Create React App 1.0
+- [x] Create React App 2.0
+- [x] React Native
+- [x] PhoneGap / Cordova
+- [x] Angular
+- [x] Vue
+- [x] NativeScript
+
 #### NPM
 ```bash
 npm install i18nh --save
