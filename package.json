@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "author": "Rodrigo Oler <https://github.com/rodrigooler>",
   "license": "MIT",
-  "main": "i18nh.js",
+  "main": "index.js",
   "private": false,
   "repository": {
     "type": "git",
