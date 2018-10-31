@@ -1,26 +1,30 @@
 const i18nh = require('../..')
 const { useT } = require('../..')
 
-const pt = {
-  hello: 'Olá',
-  love: 'Amor',
-  thanks: 'Obrigado',
-}
-
-const us = {
-  hello: 'Hello',
-  love: 'Love',
-  thanks: 'Thanks',
+const languages = {
+    en: {
+        hello: 'Hello',
+        about: 'About',
+        goodMorning: 'Good Morning',
+    },
+    pt: {
+        hello: 'Olá',
+        about: 'Sobre',
+        goodMorning: 'Bom Dia',
+    },
 }
 
 i18nh({
-  pt,
-  us,
-})
+    languages, 
+    defaultLanguage: 'en'
+});
 
-const [t] = useT()
+const [t] = useT();
 
-console.log(t('hello', 'pt'))
-console.log(t('thanks', 'us'))
-console.log(t('love', 'us'))
-console.log(t('well', 'us'))
+console.log(t('hello')) 
+console.log(t('about')) 
+console.log(t('goodMorning')) 
+
+console.log(t('hello', 'pt')) 
+console.log(t('about', 'pt')) 
+console.log(t('goodMorning', 'pt')) 

@@ -36,7 +36,7 @@ const languages = {
 // the translations and also the default language argument
 i18nh({
     languages, 
-    defaultLang: 'pt'
+    defaultLanguage: 'en'
 });
 
 const [t] = useT();
@@ -52,6 +52,6 @@ console.log(t('hello', 'pt'))
 // Olá
 console.log(t('about', 'pt')) 
 // Sobre
-console.log(t('goodMorning')) 
+console.log(t('goodMorning', 'pt')) 
 // Bom Dia
 ```

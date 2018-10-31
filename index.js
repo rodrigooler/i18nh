@@ -20,7 +20,7 @@ const getValueByLang = (key, lang) =>
     : key
 
 const t = (key, lang) => {
-  const result = lang ? getValueByLang(key, lang) : initLangs[fallBackLang]
+  const result = lang ? getValueByLang(key, lang) : initLangs[fallBackLang][key]
 
   if (debug) {
     console.info(`Debug: Translate ${key}, ${result}`)
