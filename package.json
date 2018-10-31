@@ -1,8 +1,65 @@
 {
   "name": "i18nh",
+  "description": "i18n simplified and made to solve the problem of internationalization using the concept of hook (react)",
   "version": "0.0.1",
-  "author": "Rodrigo Oler <roodrigoprogrammer@gmail.com>",
+  "author": "Rodrigo Oler <https://github.com/rodrigooler>",
+  "bugs": {
+    "url": "https://github.com/rodrigooler/i18nh/issues"
+  },
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "execa": "^0.10.0",
+    "get-stream": "^3.0.0",
+    "invert-kv": "^2.0.0",
+    "is-stream": "^1.1.0",
+    "isexe": "^2.0.0",
+    "lcid": "^2.0.0",
+    "map-age-cleaner": "^0.1.2",
+    "mem": "^4.0.0",
+    "mimic-fn": "^1.2.0",
+    "nice-try": "^1.0.5",
+    "npm-run-path": "^2.0.2",
+    "os-locale": "^3.0.1",
+    "p-defer": "^1.0.0",
+    "p-finally": "^1.0.0",
+    "p-is-promise": "^1.1.0",
+    "path-key": "^2.0.1",
+    "semver": "^5.6.0",
+    "shebang-command": "^1.2.0",
+    "shebang-regex": "^1.0.0",
+    "signal-exit": "^3.0.2",
+    "strip-eof": "^1.0.0",
+    "which": "^1.3.1"
+  },
+  "devDependencies": {},
+  "directories": {
+    "example": "examples"
+  },
+  "homepage": "https://github.com/rodrigooler/i18nh#readme",
+  "keywords": [
+    "angular",
+    "aurelia",
+    "create-react-app",
+    "hook",
+    "i18n",
+    "i18nh",
+    "javascript",
+    "nativescript",
+    "nextjs",
+    "node",
+    "react",
+    "react-native",
+    "typescript",
+    "vue"
+  ],
   "license": "MIT",
-  "main": "index.js",
-  "repository": "git@github.com:rodrigooler/i18nh.git",
+  "main": "i18nh.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rodrigooler/i18nh.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

@@ -1,24 +1,17 @@
 let initLangs = {};
 let fallBackLang = null;
 
-const load = (languages, defaultLanguage) => {
+const i18nh = (languages, defaultLanguage) => {
   initLangs = languages;
   fallBackLang = defaultLanguage;
 };
 
 const useT = () => [t];
-const t = (key, lang) => {
-  if(lang) {
-    return initLangs[lang].hasOwnProperty(key) ? initLangs[lang][key] : key;
-  }
 
-  return initLangs[fallBackLang]
-}
+const getValueByLang = key =>
+  initLangs[lang].hasOwnProperty(key) ? initLangs[lang][key] : key;
 
-module.exports = {
-  load,
-  useT
-};
+const t = (key, lang) => (lang ? getValueByLang(key) : initLangs[fallBackLang]);
 
-module.exports.load = load;
+module.exports = i18nh;
 module.exports.useT = useT;
