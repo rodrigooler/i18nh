@@ -8,10 +8,11 @@ const i18nh = (languages, defaultLanguage) => {
 
 const useT = () => [t];
 
-const getValueByLang = key =>
+const getValueByLang = (key, lang) =>
   initLangs[lang].hasOwnProperty(key) ? initLangs[lang][key] : key;
 
-const t = (key, lang) => (lang ? getValueByLang(key) : initLangs[fallBackLang]);
+const t = (key, lang) =>
+  lang ? getValueByLang(key, lang) : initLangs[fallBackLang];
 
 module.exports = i18nh;
 module.exports.useT = useT;
