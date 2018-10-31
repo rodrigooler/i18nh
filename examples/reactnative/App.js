@@ -32,8 +32,8 @@ export default class App extends Component {
 
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>t('message')</Text>
-        <Text style={styles.instructions}>t('message', 'pt')</Text>
+        <Text style={styles.welcome}>{t('message')}</Text>
+        <Text style={styles.instructions}>{t('message', 'pt')}</Text>
       </View>
     );
   }
