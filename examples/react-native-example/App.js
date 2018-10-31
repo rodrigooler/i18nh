@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import i18nh, { useT } from 'i18nh'
+import i18nh, { useT } from 'i18nh';
 
 const languages = {
   en: {
