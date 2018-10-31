@@ -8,8 +8,14 @@ Install client
 Update project dependencies
 > npm install
 
-Run expo-cli
+Run expo @ browser
 > expo start
+
+Run expo @ ios
+> expo ios
+
+Run expo @ android
+> expo android
 
 ## Old School
 
