@@ -1,0 +1,8 @@
+{
+  "name": "i18nh",
+  "version": "0.0.1",
+  "author": "Rodrigo Oler <roodrigoprogrammer@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "git@github.com:rodrigooler/i18nh.git",
+}
