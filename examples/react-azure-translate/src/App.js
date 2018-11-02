@@ -13,7 +13,7 @@ const translations = {
 
 class App extends Component {
   render() {
-    const translationEngine = new AzureTranslate(process.env.REACT_APP_AZURE_API_KEY_2, false);
+    const translationEngine = new AzureTranslate(process.env.REACT_APP_AZURE_API_KEY, false);
     return (
       <div className="App">
         <header className="App-header">
