@@ -4,7 +4,7 @@ This project shows how to translate things using your Azure Lib.
 
 ## Setting up your azure account
 
-You should have Azure account and enable the Cognitive Translating Text. After that generate your access keys.
+You should have Azure account and enable the Cognitive Text Translation. After that generate your access keys.
 
 ## Setting up this demo
 
