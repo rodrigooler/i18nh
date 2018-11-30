@@ -1,7 +1,7 @@
 {
   "name": "i18nh",
   "description": "i18n simplified and made to solve the problem of internationalization using the concept of hook (react)",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Rodrigo Oler <https://github.com/rodrigooler>",
   "license": "MIT",
   "main": "index.js",
