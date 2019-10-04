@@ -14,14 +14,12 @@ const i18nh = ({ languages, defaultLanguage, activeDebug }) => {
   }
 }
 
-const useT = () => [t]
-
 const getValueByLang = (key, lang) =>
   initLangs[lang] && initLangs[lang].hasOwnProperty(key)
     ? initLangs[lang][key]
     : key
 
-const t = (key, lang) => {
+const t = lang => key => {
   const result = lang ? getValueByLang(key, lang) : initLangs[fallBackLang][key]
 
   if (debug) {
@@ -30,5 +28,8 @@ const t = (key, lang) => {
 
   return result
 }
+
+const useT = (lang) => [t(lang)]
+
 module.exports = i18nh
 module.exports.useT = useT
