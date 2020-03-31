@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "i18nh": "0.0.2",
-    "next": "7.0.2",
+    "next": "9.3.3",
     "react": "16.6.0",
     "react-dom": "16.6.0"
   },
