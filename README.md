@@ -1,3 +1,7 @@
+# DEPRECATED because the initial idea was to have an alternative to using i18n with hooks, but now i18next is indicated and recommended! 
+
+https://react.i18next.com/
+
 ## Install
 
 ## Support
