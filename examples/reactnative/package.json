@@ -9,7 +9,7 @@
   "dependencies": {
     "i18nh": "0.0.3",
     "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.57.4"
+    "react-native": "0.70.2"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
